@@ -1,0 +1,79 @@
+@import 'tailwindcss';
+.text-center {
+  text-align: center !important;
+}
+.block {
+    display: block;
+}
+.bg-purple-400 {
+    background-color: var(--color-purple-400) /* oklch(71.4% 0.203 305.504) */;
+}
+.h-50 {
+  height: 50% !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+.hidden {
+    display: none;
+}
+.mt-6 {
+    margin-top: calc(var(--spacing) * 6) /* 1.5rem = 24px */;
+}
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+.text-black {
+  color: black;
+}
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.bg-purple-800 {
+    background-color:  #6e11b0 ;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.content-center {
+    align-content: center;
+}
+.max-w-xl {
+    max-width: 36rem;
+}
+.m-auto {
+    margin: auto;
+}
+.w-full {
+    width: 100%;
+}
+.h-screen {
+    height: 100vh;
+}
+.bg-white {
+    background-color:  #ffffff ;
+}
+.text-gray-500{
+    color: #6a7282;
+}
+.rounded-lg {
+    border-radius: var(--radius-lg) /* 0.5rem = 8px */;
+}
+.w-64 {
+    width:  16rem ;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.resizebtn{
+    margin-top: 0.25rem;
+    display: block;
+    width: 20rem;
+    padding-block: 0.75rem;
+}

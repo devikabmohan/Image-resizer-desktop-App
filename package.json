@@ -1,0 +1,23 @@
+{
+  "name": "image-resizer-electron",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "App to resize an image",
+  "main": "main.js",
+  "scripts": {
+    "build:css": " npx tailwindcss -i renderer/style.css -o renderer/tailwind.css --watch",
+    "start": "electron ."
+  },
+  "author": "DBM",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^36.4.0",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10"
+  }
+}
